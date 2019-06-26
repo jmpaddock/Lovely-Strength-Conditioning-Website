@@ -1,0 +1,739 @@
+/*--------- Global ------------*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;    
+}
+html {
+    font-family: Roboto, sans-serif;
+}
+.landing {
+    background-image: url(../images/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+    min-height: 600px;
+}
+
+.about {
+    background-image: url(../images/meetthecoach.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 135vh;
+    width: 100%;
+    min-height: 600px;
+    overflow-y: hidden;
+
+}
+
+.summerCamp {
+    background-image: url(../images/summer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 118vh;
+    width: 100%;
+    min-height: 600px; 
+    overflow-y: hidden;
+}
+
+.mobileSummer {
+    display: none;
+}
+.athleteProgram {
+    background-image: url(../images/gold.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+    min-height: 600px; 
+}
+
+.nutritionProgram {
+    background-image: url(../images/nutrition.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+    min-height: 600px; 
+}
+
+.otherPrograms {
+    background-image: url(../images/silver.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 118vh;
+    width: 100%;
+    overflow-y: hidden;
+    min-height: 600px;
+}
+
+
+.buttonOne {
+  background-color: #0876EC;
+  border-radius: 100px;
+  padding: 0.6em 1.75em;
+  display: block;
+  width: 160px;
+  text-align: center;
+}
+
+.buttonTwo {
+  background-color: #000000;
+  border-radius: 100px;
+  padding: 0.6em 1.75em;
+  display: block;
+  width: 160px;
+  text-align: center;
+  color: white;
+  text-decoration: none;    
+}
+
+.buttonThree {
+  background-color: #0876EC;
+  border-radius: 100px;
+  padding:0.6em 1.75em;
+  display: block;
+  width: 160px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+/*--------- Typography ------------*/
+h1 {
+     font-size: 35px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    opacity: 0.8;
+    margin-bottom: 5%;
+    }
+
+h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    opacity: 0.9;
+}
+
+h3 {
+      font-size: 55px;
+    letter-spacing: 10px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+a {
+    font-size: 20px;
+}
+
+/*--------- Landing ------------*/
+.nav {
+   display: flex;
+   padding-top: 20px;
+   justify-content:space-between;
+    
+}
+
+.logoMobile {
+    display: none;
+}
+
+.socialIcons {
+  padding-top: 3em;
+}
+
+.socialIcons a {
+    margin-left: 20px;   
+}
+
+.landingWrapper {
+    width: 88%;
+    height: 100vh;
+    margin: auto;
+}
+
+.landingContent {
+    width: 88%;
+    margin: auto;
+    margin-top: 13%;
+}
+
+.contentCenter a {
+    margin: auto;
+}
+.contentCenter h3, .contentCenter h1, .contentCenter a {
+text-align: center;
+color: white;
+text-decoration: none;    
+}
+
+/*--------- About ------------*/
+
+.aboutWrapper {
+    width: 88%;
+    margin: auto;   
+}
+
+.aboutContent {
+    width: 88%;
+    margin: auto;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutBegin{
+    display: flex; 
+}
+.aboutText a {
+    color: black;
+}
+.symbol {
+    padding-right: .5em;
+    padding-top: .7em;
+}
+  
+.aboutImage {
+    flex-shrink: 0;
+}
+
+.aboutImage img {
+   width: 90%;
+   margin-left: 20%;
+}
+
+.aboutimageMobile {
+        display: none;
+    }
+
+/*--------- Summer Camps ------------*/
+
+.summerWrapper{
+    width: 88%;
+    margin: auto;
+}
+
+.summerContent {
+    width: 88%;
+    padding-top: 5%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.summerText {
+    color: white;
+}
+
+.summerImage {
+  margin-right: -10%;
+  margin-top: -2%;    
+}
+
+.summerAction {
+    display: flex;
+    margin-top: 20px;
+    
+}
+.summerSocial ul {
+    list-style: none;
+    display: flex;
+    margin-left: 30px;
+}
+
+.summerSocial li {
+    margin-left: 20px;
+}
+
+ .mobileSummer {
+        display: none;
+    } 
+
+.mobileImages3 {
+    display: none;
+}
+/*--------- Athlete Program ------------*/
+
+.athleteWrapper {
+    width: 88%;
+    margin: auto;
+}
+
+.athleteContent {
+    width: 88%;
+    margin: 120px 0 auto 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.athleteText {
+    color: white;
+    flex-basis: 49%;
+    margin-right: -19%;
+    padding: .2em;
+    margin-top: 2%;
+}
+
+.athleteAction {
+    display: flex;
+    margin-top: 20px;
+}
+.athleteSocial ul{
+  display: flex;    
+  list-style: none;
+  margin-left: 30px;    
+}
+
+.athleteSocial li {
+    margin-left: 20px;
+}
+
+.athleteText p {
+    padding-bottom: 10px;
+}
+
+/*--------- Nutrition Program ------------*/
+
+.nutritionWrapper {
+    width: 88%;
+    margin: auto;
+}
+
+.nutritionContent {
+    width: 88%; 
+    margin: 100px 0 auto 0;
+    display: flex; 
+}
+
+.nutritionText a {
+    color: white;
+}
+
+.nutritionLeft {
+    display: flex;
+    color: white;
+    flex-basis: 45%;
+    padding: .2em;
+    margin-top: 2%;
+}
+
+.nutritionAction {
+    display: flex;
+    margin-top: 20px;
+}
+.nutritionSocial ul{   
+    list-style: none;
+    display: flex;
+    margin-left: 30px;
+}
+
+.nutritionSocial li {
+    margin-left: 20px;
+}
+.nutritionText p {
+    padding-bottom: 10px;
+}
+/*--------- Other Programs ------------*/
+
+.otherWrapper {
+    width: 88%;
+    margin: auto;
+}
+
+.sessionContent {
+    width: 88%; 
+    margin: 100px 0 auto 0;
+    display: flex; 
+}
+
+.sessionLeft {
+    display: flex;
+    color: white;
+    flex-basis: 45%;
+    padding: .2em;
+    margin-top: 2%;
+}
+.sessionAction {
+    display: flex;
+    margin-top: 20px;
+}
+.sessionSocial ul {
+  display: flex;    
+  list-style: none;
+  margin-left: 10px;    
+}
+
+.sessionSocial li {
+    margin-left: 20px;
+}
+
+.sessionText p {
+padding-bottom: 10px;
+}
+
+
+/*--------- Footer ------------*/
+
+.footer {
+    width: 100%;
+    min-width: 400px;
+    background-color: black;
+    background-size: cover;
+    opacity: 0.82;
+
+}
+
+.footerWrapper {
+    margin: auto;
+    width: 100%;
+}
+
+.footerContent {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+
+.footerContent p {
+    color: white;
+}
+
+.capitolCity:hover {
+    background-color: white;
+    opacity: 0.8;
+}
+
+.capitolCity:hover p {
+  color: black;
+    
+}
+ .footerContent a {
+    color: white;
+     text-decoration: none;
+}
+
+.socialRight {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.facebook {
+    margin-top: -5px;
+}
+.instagram{
+   padding-top: 5px;    
+   padding-bottom: 20px; 
+    
+}
+
+h5 
+   { color: white;
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin: 20px 0 25px 0;
+    opacity: 0.8;
+    
+}
+/*--------- responsive ------------*/
+
+ @media only screen and (max-width: 1600px){ 
+     .athleteProgram, .nutritionProgram {
+        height: 118vh;}
+     
+    .aboutWrapper {
+        width: 96%;
+    }
+     .aboutContent {
+         width: 92%;
+     } 
+     
+     .summerWrapper {
+         width: 100%;
+     }
+     .summerContent {
+         width: 92%;
+     }
+     .summerImage {
+         flex-shrink: 0;
+     }
+    
+}
+
+@media only screen and (max-width: 1400px){
+    .aboutImage img {
+ margin-left: 10%;
+}
+ .summerImage {
+        display: none;
+    }
+    .mobileSummer {
+        display: contents;
+    }    
+    .mobileImages1 {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+    }
+    .mobileImages2 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .mobileImages3 {
+        display: none;
+    }
+    .image p {
+        color: white;
+        text-align: center;
+        margin-top: -15%;
+    }
+    
+}
+@media only screen and (max-width: 1200px){
+    .aboutWrapper {
+        width:99%;
+    }
+    .aboutContent {
+        width: 97%
+    } 
+    
+     
+}
+
+@media only screen and (max-width: 1050px){
+    
+      .landing, .summerCamp, .athleteProgram, .nutritionProgram, .otherPrograms {
+        height: 100vh;
+        min-height: 1000px;
+        width: 100vw;
+        min-width: 400px;
+    }
+
+    
+   .about {
+        height: 100vh;
+        min-height: 1100px;
+        width: 100vw;
+        min-width: 400px;
+       background-image: none;
+    } 
+    
+    .aboutWrapper {
+    width: 88%;    
+    } 
+    
+    .aboutContent {
+        width: 88%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .aboutImage {
+        display: none;
+    }
+    
+    .aboutimageMobile {
+        display: contents;
+    }
+    
+    .summerWrapper{
+        width:88%;
+        margin: auto;
+    }
+    
+    .summerContent {
+        width: 88%;
+        flex-wrap: wrap;
+       justify-content: center;
+    }
+    
+    .mobileImages1, .mobileImages2 {
+        display: none;
+    }
+    
+   .mobileSummer2 {
+        display: contents;
+    }  
+     .mobileImages3 {
+        display: flex;
+        flex-direction: row;
+         margin-top: 2%;
+         
+    }
+    
+    .image {
+        margin: 0 2% 0 4%;
+    }
+    
+    .athleteContent {
+        width: 88%;
+        margin: 120px auto 0;
+    }
+   
+    .athleteText {
+    flex-basis: 100%;
+    padding: .2em;
+    margin-right: 0;    
+
+}
+    
+    .nutritionContent {
+    width: 88%; 
+    margin: 120px auto 0;
+}
+
+    .nutritionLeft {
+    flex-basis: 100%;
+    padding: .2em;
+    margin-top: 0;  
+}
+
+    .sessionContent{
+    width: 88%; 
+    margin: 120px auto 0;
+    }
+    
+    .sessionLeft {
+    flex-basis: 100%;
+    padding: .2em;
+    margin-top: 0;  
+}
+    
+    h1 {
+        margin-bottom: 10%;
+    }
+    
+} 
+
+@media only screen and (max-width: 700px) {
+      
+    .about {
+        height: 100vh;
+        min-height: 900px;
+    }
+    
+    .summerCamp {
+        height: 110vh;
+        min-height: 1200px;
+    }
+    
+    .athleteProgram, .nutritionProgram {
+        height: 100vh;
+        min-height: 1050px;
+    }
+    
+    .otherPrograms {
+        height: 110vh;
+        min-height: 900px;
+    }
+    
+    .landingContent {
+        width: 98%;
+    }
+    
+    .nav {
+   padding-top: 50px;
+   flex-direction: row;       
+    
+}
+    
+    .lovelyLogo {
+        display: none;
+    }
+    
+    .logoMobile {
+        display: block;
+ 
+    }
+    
+    .socialIcons {
+  padding-top: 1em;
+}
+    .aboutContent,.summerContent, .athleteContent, .nutritionContent, .sessionProgram,
+    {   width: 99%;
+        margin: 10% auto 0 auto;
+        justify-content: center;
+    }
+    
+    .summerAction, .athleteAction, .nutritionAction, .sessionAction, 
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+    
+}
+ 
+    .summerSocial ul, .athleteSocial ul, .nutritionSocial ul, .sessionSocial ul, .dropinSocial ul
+    {
+      margin-left: 0;
+    margin-top: 20px;
+        
+} 
+
+    .aboutimageMobile {
+        display: none;
+    }
+    
+    .symbol {
+    display: none;
+}
+    
+    .mobileImages3 {
+        display: none;
+    }
+      
+    .footerWrapper {
+    width: 88%;    
+}
+    
+    .footerContent {
+    align-items: flex-start;   
+        
+}
+    .footerLeft {
+    display: none;
+        
+    }
+    
+     .contentCenter h1 {
+        margin-top: 45%;
+         margin-bottom: 0;
+    }
+    
+    h3 
+    {
+        font-size: 45px;
+        margin-top: 25%;
+    }
+    
+    
+    h2 {
+    font-size: 34px;
+}
+    
+    
+}
